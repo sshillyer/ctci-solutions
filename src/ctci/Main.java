@@ -10,7 +10,17 @@ public class Main {
 //        test1_1();
 //        test1_3();
 //        test1_4(); // this doesn't work, blahhhhh
-        
+
+        // Chapter 2 stuff....
+
+        // See if MyLinkedList works:
+        MyLinkedList list = new MyLinkedList();
+        list.print();
+        list.appendToTail(1);
+        list.appendToTail(99);
+        list.appendToTail(-913134);
+        list.print();
+
     }
 
 
